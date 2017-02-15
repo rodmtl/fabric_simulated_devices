@@ -1,0 +1,16 @@
+{
+  "name": "factories simulator",
+  "version": "1.0.0",
+  "description": "3 Node JS IoT simulated device apps that connects to the Azure IoT hub. Each device create random telemetry data and send it to the Cloud",
+  "main": "dvcFact1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iot-device": "^1.1.6",
+    "azure-iot-device-mqtt": "^1.1.6",
+    "d3-random": "^1.0.2"
+  }
+}
